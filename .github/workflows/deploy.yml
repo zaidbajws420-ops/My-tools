@@ -30,5 +30,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          cname: my-tools-liard.vercel.app
+          publish_dir: ./dist/public
